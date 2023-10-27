@@ -1,0 +1,44 @@
+.order-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 40%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.order-form button {
+    grid-column: span 4;
+    width: 20%;
+    margin: 0 auto;
+}
+
+label {
+    text-align: right;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.orders-table th, .products-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.orders-table tr:hover {
+    background-color: #ddd;
+}
+
+.orders-table th {
+    text-align: center;
+    background-color: #b10701;
+    color: white;
+    cursor: pointer;
+}
